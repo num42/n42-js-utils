@@ -1,6 +1,6 @@
 {
   "name": "n42-js-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": ["pipe", "utility", "task-lib", "tiny"],
   "main": "./dist/main.js",
   "author": "Andreas Solleder <asol@num42.de> (https://github.com/aspala)",
