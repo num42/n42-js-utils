@@ -1,115 +1,115 @@
-import allWith from './utils/all-with.js';
-import all from './utils/all.js';
-import anyWith from './utils/any-with.js';
-import any from './utils/any.js';
-import append from './utils/append.js';
+import allWith from './lib/all-with.js';
+import all from './lib/all.js';
+import anyWith from './lib/any-with.js';
+import any from './lib/any.js';
+import append from './lib/append.js';
 
-import both from './utils/both.js';
+import both from './lib/both.js';
 
-import chunk from './utils/chunk.js';
-import compact from './utils/compact.js';
-import concat from './utils/concat.js';
-import conditional from './utils/conditional.js';
-import curry from './utils/curry.js';
+import chunk from './lib/chunk.js';
+import compact from './lib/compact.js';
+import concat from './lib/concat.js';
+import conditional from './lib/conditional.js';
+import curry from './lib/curry.js';
 
-import debug from './utils/debug.js';
+import debug from './lib/debug.js';
 
-import entries from './utils/entries.js';
-import eq from './utils/eq.js';
-import exec from './utils/exec.js';
-import extend from './utils/extend.js';
+import entries from './lib/entries.js';
+import eq from './lib/eq.js';
+import exec from './lib/exec.js';
+import extend from './lib/extend.js';
 
-import filterBy from './utils/filter-by.js';
-import filter from './utils/filter.js';
-import findByInTree from './utils/find-by-in-tree.js';
-import findBy from './utils/find-by.js';
-import findInTree from './utils/find-in-tree.js';
-import find from './utils/find.js';
-import first from './utils/first.js';
-import flatten from './utils/flatten.js';
-import forEach from './utils/for-each.js';
+import filterBy from './lib/filter-by.js';
+import filter from './lib/filter.js';
+import findByInTree from './lib/find-by-in-tree.js';
+import findBy from './lib/find-by.js';
+import findInTree from './lib/find-in-tree.js';
+import find from './lib/find.js';
+import first from './lib/first.js';
+import flatten from './lib/flatten.js';
+import forEach from './lib/for-each.js';
 
-import groupBy from './utils/group-by.js';
-import gt from './utils/gt.js';
-import gte from './utils/gte.js';
+import groupBy from './lib/group-by.js';
+import gt from './lib/gt.js';
+import gte from './lib/gte.js';
 
-import id from './utils/id.js';
+import id from './lib/id.js';
 
-import includes from './utils/includes.js';
-import injectPipelineIf from './utils/inject-pipeline-if.js';
-import injectPipeline from './utils/inject-pipeline.js';
-import instantiate from './utils/instantiate.js';
-import isArrayEmpty from './utils/is-array-empty.js';
-import isArray from './utils/is-array.js';
-import isEmpty from './utils/is-empty.js';
-import isFunction from './utils/is-function.js';
-import isNone from './utils/is-none.js';
-import isNumber from './utils/is-number.js';
-import isObject from './utils/is-object.js';
-import isObjectEmpty from './utils/is-object-empty.js';
-import isPromise from './utils/is-promise.js';
-import isStringEmpty from './utils/is-string-empty.js';
-import isString from './utils/is-string.js';
+import includes from './lib/includes.js';
+import injectPipelineIf from './lib/inject-pipeline-if.js';
+import injectPipeline from './lib/inject-pipeline.js';
+import instantiate from './lib/instantiate.js';
+import isArrayEmpty from './lib/is-array-empty.js';
+import isArray from './lib/is-array.js';
+import isEmpty from './lib/is-empty.js';
+import isFunction from './lib/is-function.js';
+import isNone from './lib/is-none.js';
+import isNumber from './lib/is-number.js';
+import isObject from './lib/is-object.js';
+import isObjectEmpty from './lib/is-object-empty.js';
+import isPromise from './lib/is-promise.js';
+import isStringEmpty from './lib/is-string-empty.js';
+import isString from './lib/is-string.js';
 
-import join from './utils/join.js';
+import join from './lib/join.js';
 
-import keyMap from './utils/key-map.js';
-import keys from './utils/keys.js';
+import keyMap from './lib/key-map.js';
+import keys from './lib/keys.js';
 
-import last from './utils/last.js';
-import length from './utils/length.js';
-import log from './utils/log.js';
-import logger from './utils/logger.js';
-import lt from './utils/lt.js';
-import lte from './utils/lte.js';
+import last from './lib/last.js';
+import length from './lib/length.js';
+import log from './lib/log.js';
+import logger from './lib/logger.js';
+import lt from './lib/lt.js';
+import lte from './lib/lte.js';
 
-import mapBy from './utils/map-by.js';
-import map from './utils/map.js';
-import match from './utils/match.js';
-import merge from './utils/merge.js';
+import mapBy from './lib/map-by.js';
+import map from './lib/map.js';
+import match from './lib/match.js';
+import merge from './lib/merge.js';
 
-import neq from './utils/neq.js';
-import notEmpty from './utils/not-empty.js';
-import not from './utils/not.js';
+import neq from './lib/neq.js';
+import notEmpty from './lib/not-empty.js';
+import not from './lib/not.js';
 
-import ownProperties from './utils/own-properties.js';
+import ownProperties from './lib/own-properties.js';
 
-import parse from './utils/parse.js';
-import pipe from './utils/pipe.js';
-import pipelineTransformation from './utils/pipeline-transformation.js';
-import pipeline from './utils/pipeline.js';
-import pluck from './utils/pluck.js';
-import proxy from './utils/proxy.js';
+import parse from './lib/parse.js';
+import pipe from './lib/pipe.js';
+import pipelineTransformation from './lib/pipeline-transformation.js';
+import pipeline from './lib/pipeline.js';
+import pluck from './lib/pluck.js';
+import proxy from './lib/proxy.js';
 
-import range from './utils/range.js';
-import recursive from './utils/recursive.js';
-import reduce from './utils/reduce.js';
-import rejectBy from './utils/reject-by.js';
-import reject from './utils/reject.js';
-import replace from './utils/replace.js';
-import returnNull from './utils/return-null.js';
-import returnValue from './utils/return-value.js';
+import range from './lib/range.js';
+import recursive from './lib/recursive.js';
+import reduce from './lib/reduce.js';
+import rejectBy from './lib/reject-by.js';
+import reject from './lib/reject.js';
+import replace from './lib/replace.js';
+import returnNull from './lib/return-null.js';
+import returnValue from './lib/return-value.js';
 
-import sampleMany from './utils/sample-many.js';
-import sample from './utils/sample.js';
-import sleep from './utils/sleep.js';
-import slice from './utils/slice.js';
-import sortBy from './utils/sort-by.js';
-import sort from './utils/sort.js';
-import split from './utils/split.js';
-import stringify from './utils/stringify.js';
+import sampleMany from './lib/sample-many.js';
+import sample from './lib/sample.js';
+import sleep from './lib/sleep.js';
+import slice from './lib/slice.js';
+import sortBy from './lib/sort-by.js';
+import sort from './lib/sort.js';
+import split from './lib/split.js';
+import stringify from './lib/stringify.js';
 
-import { createTask, cancelTask } from './utils/task.js';
-import test from './utils/test.js';
-import toObject from './utils/to-object.js';
-import trim from './utils/trim.js';
-import truncate from './utils/truncate.js';
+import { createTask, cancelTask } from './lib/task.js';
+import test from './lib/test.js';
+import toObject from './lib/to-object.js';
+import trim from './lib/trim.js';
+import truncate from './lib/truncate.js';
 
-import uniq from './utils/uniq.js';
+import uniq from './lib/uniq.js';
 
-import values from './utils/values.js';
+import values from './lib/values.js';
 
-import wrapWithArray from './utils/wrap-with-array.js';
+import wrapWithArray from './lib/wrap-with-array.js';
 
 export { allWith as allWith };
 export { all as all };

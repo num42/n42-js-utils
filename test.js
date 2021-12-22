@@ -1,4 +1,4 @@
-import utils from  './src/index.js';
+import lib from  './src/index.js';
 
 
 
@@ -216,7 +216,7 @@ function compareEquality(will, was){
 
 
 function test(method, args, right, transformer=(a)=>{return a}){
-  const subject = utils[method]
+  const subject = lib[method]
   const left = transformer(subject.apply(null, args))
 
   const cond = compareEquality(left, right)
